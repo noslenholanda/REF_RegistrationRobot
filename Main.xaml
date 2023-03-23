@@ -6,7 +6,7 @@
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>677,999</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>677,984</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>Main2_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -81,7 +81,7 @@
       <AssemblyReference>System.Windows.Forms</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <StateMachine InitialState="{x:Reference __ReferenceID3}" sap2010:Annotation.AnnotationText="Registration Robot&#xD;&#xA;&#xD;&#xA;Executa a rotina que envia requisição, trata os dados recebidos e insere as informações em sistema de cadastro&#xD;&#xA;&#xD;&#xA;Pré:&#xA;- Ter o navegador Google Chrome instalado;&#xD;&#xA;- Ter a extensão UiPath Web para guias anônimas ativada;&#xD;&#xA;- Ajustar arquivo de configuração 'Data\Config.xlsx' conforme os parâmetros do usuário;&#xD;&#xA;&#xD;&#xA;Pós:&#xD;&#xA;- Relatório seja gerado no caminho 'Data\Output\Cadastro.xlsx' &#xD;&#xA;- Relatório seja enviado por email;" DisplayName="General Business Process" sap:VirtualizedContainerService.HintSize="687,934" sap2010:WorkflowViewState.IdRef="StateMachine_1">
+  <StateMachine InitialState="{x:Reference __ReferenceID3}" sap2010:Annotation.AnnotationText="Registration Robot&#xA;&#xA;Executa a rotina que envia requisição, trata os dados recebidos e insere as informações em sistema de cadastro&#xA;&#xA;Pré:&#xA;- Ter o navegador Google Chrome instalado;&#xA;- Ter a extensão UiPath Web para guias anônimas ativada;&#xA;- Ajustar arquivo de configuração 'Data\Config.xlsx' conforme os parâmetros do usuário;&#xA;&#xA;Pós:&#xA;- Relatório seja gerado no caminho 'Data\Output\Cadastro.xlsx' e seja enviado por email;" DisplayName="General Business Process" sap:VirtualizedContainerService.HintSize="687,919" sap2010:WorkflowViewState.IdRef="StateMachine_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
