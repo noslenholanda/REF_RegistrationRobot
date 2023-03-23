@@ -4,7 +4,7 @@
  
  - Efetua login em um sistema web;
  - Efetua requisição e trata os dados para processamento;
- - Processa os dados em sistema de cadastro
+ - Processa os dados em sistema de cadastro;
  - Gera um relatório dos dados cadastrados;
  - Armazena os dados gerados;
  - Envia relatório gerado por email;
