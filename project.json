@@ -1,12 +1,15 @@
 {
-  "name": "rpa-template",
-  "description": "TesteGit",
+  "name": "Registration Robot",
+  "description": "Executa a rotina que envia requisição, trata os dados recebidos e insere as informações em sistema de cadastro",
   "main": "Main.xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "[2.16.0]",
+    "UiPath.Mail.Activities": "[1.18.2]",
+    "UiPath.Python.Activities": "[1.6.0]",
     "UiPath.System.Activities": "[22.10.3]",
     "UiPath.Testing.Activities": "[22.10.0]",
-    "UiPath.UIAutomation.Activities": "[22.10.3]"
+    "UiPath.UIAutomation.Activities": "[22.10.3]",
+    "UiPath.WebAPI.Activities": "[1.16.0-preview]"
   },
   "webServices": [],
   "entitiesStores": [],
@@ -20,6 +23,7 @@
     "isAttended": false,
     "requiresUserInteraction": true,
     "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
     "excludedLoggedData": [
       "Private:*",
       "*password*"
